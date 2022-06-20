@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotifChannelActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edTitle"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edDescription"/>
+
+    <Button
+        android:onClick="btnChannel1Click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer sur Channel 1"/>
+    <Button
+        android:onClick="btnChannel2Click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer sur Channel 2"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

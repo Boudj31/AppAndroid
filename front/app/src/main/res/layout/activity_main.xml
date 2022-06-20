@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Notification Channel"
+       android:onClick="btnChennelClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Exemple RecycleView"
+       android:onClick="btnRecycleViewClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Exemple De Pagination"
+       android:onClick="btnPaginationClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ANDROID ROOM (MAPPING/DAO)"
+       android:onClick="btnRoomClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Retrofit (SPRINGBOOT API)"
+       android:onClick="btnRetrofitClickClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Android Data Binding"
+       android:onClick="btnBindingClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="MVVM DEMO"
+       android:onClick="btnMvvmClick"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Espresso DEMO"
+       android:onClick="btnEspressoClick"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

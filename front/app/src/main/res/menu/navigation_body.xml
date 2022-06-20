@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:title="User Liste" android:icon="@drawable/ic_users" android:id="@+id/all_users"/>
+    <item android:title="Settings" android:icon="@drawable/ic_settings" android:id="@+id/settings"/>
+    <item android:title="Logout" android:icon="@drawable/ic_logout" android:id="@+id/logout"/>
+    </group>
+
+</menu>
